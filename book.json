@@ -1,0 +1,7 @@
+{
+    "title": "Programación Orientada por Objetos en Ruby",
+    "plugins": [
+        "-search",
+        "-lunr"
+    ]
+}
