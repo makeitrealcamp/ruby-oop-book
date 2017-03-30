@@ -1,8 +1,8 @@
 # Programación Orientada por Objetos en Ruby
 
-La Programación Orientada por Objetos (POO) es un paradigma de la programación que se popularizó en los años 80's gracias a un lenguaje de programación llamado Smalltalk que inventó Alan Kay mientras trabajaba en PARC, el centro de investigación de Xerox en Palo Alto, California, el mismo lugar donde se inventaron el mouse, la interfaz gráfica y la impresora a laser, entre otros.
+La Programación Orientada por Objetos (POO) es un paradigma de la programación que se popularizó en los años 80's gracias a un lenguaje de programación llamado [Smalltalk](https://es.wikipedia.org/wiki/Smalltalk) que inventó [Alan Kay](https://es.wikipedia.org/wiki/Alan_Kay) mientras trabajaba en [PARC](https://es.wikipedia.org/wiki/Xerox_PARC), el centro de investigación de Xerox en Palo Alto, California, el mismo lugar donde se inventaron el mouse, la interfaz gráfica y la impresora a laser, entre otros inventos que hoy utilizamos.
 
-Ruby hace amplio uso de la POO y seguramente ya estás utilizando este paradigma, simplemente aún no sabes de qué forma. El objetivo de este libro es precisamente explicarte los conceptos detrás de la POO, cómo se aplican en Ruby, y cómo los puedes aplicar a tus propias aplicaciones.
+Ruby hace amplio uso de la POO y seguramente ya estás utilizando este paradigma, aunque es posible que aún no sepas de qué forma. El objetivo de este libro es precisamente explicarte los conceptos detrás de la POO, cómo se aplican en Ruby, y cómo los puedes aplicar a tus propias aplicaciones.
 
 ## A quién está dirigido este libro
 

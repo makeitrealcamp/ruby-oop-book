@@ -1,8 +1,8 @@
 # Métodos y atributos de clase
 
-Hasta ahora los métodos y atributos que hemos utilizado ha sido sobre los objetos, instancias de una clase. En este capítulo hablaremos sobre métodos y atributos que puedes llamar sobre la clase directamente.
+Hasta ahora, los métodos y atributos de los que hemos hablado están asociados a un objeto. En este capítulo hablaremos sobre métodos y atributos que están asociados a la clase directamente.
 
-En general, los métodos y atributos de instancia se utilizan mucho más que los métodos y atributos de clase. Sin embargo, es importante que conozcan para qué sirven los métodos y atributos de clase y cómo se definen.
+En general, los métodos y atributos de **instancia** se utilizan mucho más que los métodos y atributos de **clase**. Sin embargo, es importante que conozcas para qué sirven y cómo se definen los métodos y atributos de clase.
 
 ## Métodos de clase
 
@@ -96,7 +96,7 @@ La última línea de este código debería enviar un correo a "pedro@example.com
 
 ## Atributos de clase
 
-Supongamos que necesitamos contar cuántas objetos se crean a partir de la clase `Person`. Esa información la podríamos almacenar en un atributo de clase. Los atributos de clase se identifican porque utilizan dos `@@` en vez de una:
+Supongamos que necesitamos contar cuántos objetos se crean a partir de la clase `Person`. Esa información la podríamos almacenar en un atributo de clase. Los atributos de clase se identifican porque utilizan dos `@@` en vez de una:
 
 ```ruby
 class Person

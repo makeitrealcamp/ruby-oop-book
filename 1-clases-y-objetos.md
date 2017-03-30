@@ -437,9 +437,3 @@ Suficiente información por este capítulo. En el siguiente capítulo pondremos 
 5. Agrega un método llamado `perimeter` que retorne el perímetro del cuadrado.
 
 6. Crea 2 instancias de `Square`, una con longitud de 5 y la otra con longitud de 10. Verifica que retornen el área y la longitud correcta.
-
-## Avanzado
-
-Crea una clase `Board` que reciba una longitud y un ancho (imagina un tablero de ajedrez). Crea una clase `Player` que reciba un nombre. Crea una clase `Monster` que recibe un color 
-
-Hacer otro ejercicio que sea más del mundo real: Facturas, productos, items, etc.

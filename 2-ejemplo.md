@@ -25,7 +25,7 @@ Este código empieza inicializando las variables que vamos a utilizar: `num_atte
 
 Después iteramos mientras que `found` sea `false`. En cada iteración le pedimos al usuario que adivine el número y si es correcto termina el juego (cambiamos `found` a `true` para que termine la iteración). De lo contrario, incrementamos el número de intentos.
 
-En este momento nuestro juego está muy **acoplado** a la línea de comandos y sería muy difícil adaptarlo a otros ambientes como una aplicación de escritorio o Web. Lo que vamos a hacer con programación orientada a objetos es separar el juego de la interfaz con el usuario.
+En este momento nuestro juego está muy **acoplado** a la línea de comandos y sería muy difícil adaptarlo a otros ambientes como una aplicación de escritorio o Web. Lo que vamos a hacer con programación orientada a objetos es separar el juego de la interfaz de usuario.
 
 Primero vamos a crear una clase `Game` que se encargue de la lógica del juego. Crea un nuevo archivo llamado `game.rb` y escribe lo siguiente:
 
@@ -70,7 +70,7 @@ until game.found
 end
 ```
 
-El primer paso es importar el archivo que tiene la clase `Game`. Luego creamos una nueva instancia de `Game` e iteramos mientras que el número no haya sido encontrado. En cada iteración utilizamos nuestra case `Game` para realizar los intentos y verificar si ya fue encontrado.
+Veamos qué hace este código. El primer paso es importar el archivo con la clase `Game`. Luego creamos una nueva instancia de `Game` e iteramos mientras que el número no haya sido encontrado. En cada iteración utilizamos nuestra case `Game` para realizar los intentos y verificar si ya fue encontrado.
 
 ## Código más fácil de probar
 
@@ -174,11 +174,14 @@ class GameTest < Minitest::Test
 
   def test_increments_num_attemps_on_failed_attempt
     @game.attempt(4)
+
+    assert_not @game.found
     assert_equal 1, @game.attempts
   end
 
   def test_found_is_updated_when_number_is_guessed
     @game.attemp(5)
+
     assert @game.found
   end
 end
@@ -187,6 +190,6 @@ end
 Hemos utilizado la programación orientada a objetos para dos cosas:
 
 1. Separar la lógica del juego de la forma en que se le muestra al usuario.
-2. Hicimos nuestro código más fácil de probar.
+2. Hacer nuestro código más fácil de probar.
 
 Esto, en el mundo de la programción, es muy valioso!
